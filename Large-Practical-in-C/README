@@ -1,0 +1,11 @@
+README File..
+
+1. Code originally was created on Windows Machine (Windows 10), when I tried to run it on the DiCE machine, it created an error I haven't seen on my machine before, "Floating point exception", and didn't leave enough time for me to fix it before deadline. 
+
+2. The simulation code isn't finished, as it doesn't have any bus functionalities, only taxi (pick up request, one at a time). It prints the requests fine, and correctly (with my random requests implementation), but it doesn't print the separate bus arrivals, departures, entering new passenger, leaving new passenger. The code at the very bottom that is commented out is the implementation which made it almost work but it has still some errors. Code doesn't contain 'Experimentation' or 'Efficiency' features.
+
+3. I didn't use the exponential distribution request system, as wasn't entirely sure how to implement it in time, so I created a array of random variables from range 0-60 which symbolise the minute that the request will happen every hour. 
+
+4. Test cases been tested, and as long as the input is correct in the file, it will compile, it gives error if the input file is wrong. 
+
+5. input.txt should pass the parsing, missing_input.txt should fail as it is missing a variable, wrong_name_input.txt should also return an error as the variables have wrong names.
